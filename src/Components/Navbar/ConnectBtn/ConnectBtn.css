@@ -1,0 +1,26 @@
+.navbar-right__connect {
+    background-color: var(--color-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    font-size: 14px;
+    padding: 14px 24px; 
+    font-family: inherit;
+    cursor: pointer;
+}
+.navbar-right__connect:hover {
+    background: #009bf2;
+}
+@media screen and (max-width:364px) {
+    .navbar-right__connect {
+        font-size: 10px;
+        padding: 14px 18px; 
+    }
+}

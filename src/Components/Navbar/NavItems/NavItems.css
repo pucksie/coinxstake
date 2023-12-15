@@ -1,0 +1,13 @@
+.navbar-left__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    margin: 0 46px;
+    text-transform: uppercase;
+}
+@media screen and (max-width: 768px) {
+    .navbar-left__container {
+        display: none;
+    }
+}

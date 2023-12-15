@@ -1,0 +1,17 @@
+.data-container {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    flex-direction: column  ;
+}
+.data_box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.text-data {
+    color: #7a8aa0;
+}

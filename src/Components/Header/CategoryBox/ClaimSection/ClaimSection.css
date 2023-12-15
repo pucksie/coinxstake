@@ -1,0 +1,49 @@
+.claim {
+    width: 100%;
+    height: fit-content;
+}
+.claim > p {
+    background-color: rgb(255, 250, 224);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0px auto 16px;
+    color: rgb(39, 56, 82);
+}
+.claim > p > span {
+    color: rgb(0, 163, 255);
+    cursor: pointer;
+}
+.claim_card {
+    border: 1px solid rgba(0, 10, 61, 0.12);
+    border-radius: 10px;
+    margin-bottom: 16px;
+}
+.claim_card-stat {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    background-color: rgb(245, 247, 250);
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+    border-bottom: 1px solid rgba(0, 10, 61, 0.12);
+}
+.claim_card-stat__balance {
+    margin-right: 18px;
+    font-size: 12px;
+    line-height: 1.6em;
+    width: 50%;
+}
+.claim_card-stat__balance-value {
+    margin-top: 2px;
+    font-size: 18px;
+    line-height: 1.4em;
+    white-space: nowrap;
+    font-weight: 700;
+    color: rgb(39, 56, 82);
+}
+.claim_card-edit {
+    text-align: center;
+    padding: 12px 0px;
+    cursor: not-allowed;
+    color: rgb(173, 225, 255);
+}

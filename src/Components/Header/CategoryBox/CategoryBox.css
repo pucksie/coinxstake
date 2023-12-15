@@ -1,0 +1,17 @@
+.header-catagory {
+    width: 100%;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.6em;
+    border-radius: 20px;
+    margin: 0px;
+    padding: 32px;
+    box-shadow: none;
+    background: white;
+    color: #7a8aa0;
+}
+@media screen and (max-width: 768px) {
+    .header-catagory {
+        padding: 12px;
+    }
+}

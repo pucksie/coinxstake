@@ -1,0 +1,15 @@
+.faq {
+    height: fit-content;
+    box-sizing: border-box;
+    margin: 0px auto;
+    min-width: 320px;
+    width: 71%;
+    padding: 24px 32px;
+    max-width: 560px;
+}
+@media screen and (max-width:768px) {
+    .faq {
+        width: 90%;
+        padding: 24px 12px;
+    }
+}

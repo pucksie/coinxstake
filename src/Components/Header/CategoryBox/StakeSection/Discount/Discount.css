@@ -1,0 +1,113 @@
+.discount {
+    height: fit-content;
+    margin-bottom: 16px;
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0px 20px;
+    border-radius: 10px;
+    min-height: 80px;
+    overflow: hidden;
+    background-image: url("/discoundBG.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(7, 8, 12);
+    flex-wrap: wrap;
+}
+.discount-tooltip {
+    line-height: 0;
+    position: relative;
+
+}
+.discount-tooltip:hover .tooltip {
+    display: block;
+
+}
+.tooltip {
+    position: absolute;
+    background-color: rgb(43, 48, 54);
+    padding: 12px;
+    display: none;
+    left: calc(100% + 5px);
+    top: 50%;
+    transform: translate(0px, -50%);
+    color: rgb(255, 255, 255);
+    z-index: 9;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;
+    border-radius: 8px;
+    font-size: 12px;
+    line-height: 18px;
+    max-width: 280px;
+    text-transform: capitalize;
+    min-width: 30px;
+
+}
+.discount-text {
+    flex: 1 1 auto;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 400;
+    width: 40%;
+}
+.discount-link {
+    flex: 0 0 auto;
+}
+.discount-link_a {
+    text-decoration: none;
+    color: var(--color-primary);  
+}
+.discount-link_btn {
+    
+    box-sizing: border-box;
+    margin: 0px;
+    border: none;
+    outline: none;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    background-image: initial;
+    background-position: initial;
+    background-size: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    font-family: inherit;
+    font-weight: 700;
+    width: 100%;
+    line-height: 1em;
+    font-size: 12px;
+    border-radius: 6px;
+    padding: 10px 16px;
+    min-width: 60px;
+    color: white;
+    background-color: var(--color-primary);
+    transition: background-color 100ms ease 0s;
+}
+.discount-link_btn > span {
+    
+    position: relative;
+    pointer-events: none;
+    visibility: visible;
+}
+.discount-link_btn:hover {
+
+    background: #009bf2;
+}
+
+@media screen and (max-width:678px) {
+    .discount-text {
+        width: 100%;
+    }
+    .discount {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        flex-wrap: wrap;
+        height: auto;
+        background-size: cover;
+        background-position: -10px center;
+        justify-content: center;
+    }
+}
